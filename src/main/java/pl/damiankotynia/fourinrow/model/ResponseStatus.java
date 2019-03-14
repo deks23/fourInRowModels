@@ -7,5 +7,9 @@ public enum ResponseStatus implements Serializable {
     OK,
     MESSAGE,
     MOVE,
-    NO_PLAYERS
+    NO_PLAYERS,
+    START,
+    LOST,
+    WON,
+    OPONENT_DISCONECTED
 }
