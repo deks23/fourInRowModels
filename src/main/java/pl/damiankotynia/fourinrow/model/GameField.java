@@ -7,9 +7,9 @@ public class GameField implements Serializable {
     private int height;
     private int [][] gameBoard;
 
-    public GameField(int width, int height) {
-        this.width = width;
-        this.height = height;
+    public GameField() {
+        this.width = 7;
+        this.height = 6;
         gameBoard = new int[height][width];
         for(int i = 0; i<width; i++){
             for(int j = 0; j<height; j++){
